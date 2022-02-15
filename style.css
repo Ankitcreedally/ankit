@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    --animate-duration: 2s;
+}
+
+:root {
+    --animate-duration: 2s;
 }
 
 header {
@@ -378,4 +383,209 @@ h3 {
     color: #f8f8f8;
     font-weight: 400;
     font-family: "Sen";
+}
+
+
+/* testimonial section  */
+p.testimonialpera {
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: #2f2f2e;
+    font-weight: 400;
+    font-family: "Sen";
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 50px;
+    width: 80%;
+    margin: 40px auto;
+    border: 2px dotted black;
+}
+
+.testimonial h4 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.invertedcoma {
+    font-size: 114px;
+    line-height: 0;
+    margin: 70px 0 0 0;
+    color: #01c4b6;
+    font-family: sans-serif;
+}
+
+.space {
+    height: 100px;
+}
+
+.testimonialslides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.testimonialslides .slick-prev {
+    background-color: #01c4b6;
+    border: 0;
+    color: white;
+    left: 0;
+}
+
+.testimonialslides .slick-prev:before {
+    content: "<";
+    color: rgb(255 255 255);
+    font-size: 30px;
+}
+
+
+/* contact us section  */
+.contactus {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin: auto;
+}
+
+.getintuch {
+    width: 45%;
+}
+
+.contactus h2 {
+    font-size: 50px;
+    line-height: 30px;
+    margin: 7px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+input {
+    width: 90%;
+    font-size: 13px;
+    padding: 13px;
+    margin: 7px 0;
+    border: 1px solid #b0b0b0;
+}
+
+textarea#message {
+    width: 90%;
+    font-size: 13px;
+    padding: 13px;
+    margin: 7px 0;
+    border: 1px solid #b0b0b0;
+}
+
+
+
+button.send {
+    margin: 15px 0 0 0;
+    width: 40%;
+    font-size: 18px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Sen";
+    border-radius: 0;
+    border: none;
+    background-color: #fc4054;
+}
+
+
+.newsletter {
+    width: 45%;
+}
+.contactus p {
+    text-align: left;
+}
+
+button.send.subscribe {
+    background-color: #30cec3;
+    width: 96%;
+    margin: 10px 0;
+}
+
+
+/* footer  */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    padding: 70px 0 40px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+footer i.fa-solid {
+    font-size: 30px;
+    color: #29ccc1;
+}
+
+footer h3 {
+    font-size: 30px;
+    color: #f8f8f8;
+    line-height: 0.5;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 0;
+    color: #f8f8f8;
+}
+
+.devider {
+    margin: 60px 0;
+    width: 30%;
+    height: 2px;
+    background-color: #29ccc1;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    margin: 50px;
+}
+
+footer li {
+    padding: 0 20px;
+}
+
+footer a {
+    font-size: 15px;
+    color: #f4f2f2;
+    text-decoration: none;
+}
+
+.fa-brands {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: #f8f8f8;
 }
