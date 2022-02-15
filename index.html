@@ -12,33 +12,49 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Seo Marketing</title>
 </head>
 
 <body>
-    <header class="">
-        <div class="fistnav">
-            <div class="logo">
-                <img src="images/logo.png" alt="Seo">
+    <div class="navcover">
+        <header class="">
+            <div class="fistnav">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Seo">
+                </div>
+                <nav class="navdesk">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
+            <div class="secondnav">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="callnav"><a href=""><i class="fa-solid fa-phone"></i>Call:+91 9725834064</a></li>
                 </ul>
-            </nav>
-        </div>
-        <div class="secondnav">
-            <ul>
-                <li><a href="">Login</a></li>
-                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-phone"></i>Call:+91 9725834064</a></li>
-            </ul>
-        </div>
-    </header>
-
+            </div>
+            <div class="hamburger" onclick="toggelnav(this)">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </header>
+    </div>
+    <nav class="mobilenav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>Call:+91 9725834064</a></li>
+        </ul>
+    </nav>
     <!-- banner slider  -->
     <div class="sliksliderr">
         <div class="bannerslider">
@@ -126,7 +142,7 @@
                     <p>generators on the Internet tend to repeat predefined chunks as necessary</p>
                 </div>
                 <div class="button">
-                    <button class="aboutread">Read More</button>
+                    <button class="aboutread deskbtnabout">Read More</button>
                 </div>
             </div>
             <div class="s3">
@@ -146,7 +162,9 @@
             <img src="images/bluebar.png" alt="">
         </div>
     </div>
-
+    <div class="sbtnmobile">
+        <button>Read More</button>
+    </div>
 
     <!-- Pay for Qualified Traffic saction  -->
     <div class="qualified">
@@ -219,40 +237,46 @@
 
     <div class="space"></div>
 
-    <footer>
-        <div class="info">
-            <div class="flocation">
-                <i class="fa-solid fa-location-dot"></i>
-                <h3>Address</h3>
-                <p>Location</p>
+    <div class="fwrap">
+        <footer>
+            <div class="info">
+                <div class="flocation">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Address</h3>
+                    <a href="https://g.page/CreedAlly?share">
+                        <p>Location</p>
+                    </a>
+                </div>
+                <div class="fphone">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:+91925834064">
+                        <p>+91 9725834064</p>
+                    </a>
+                </div>
+                <div class="femail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:info@creedally.com">
+                        <p>info@creedally.com</p>
+                    </a>
+                </div>
             </div>
-            <div class="fphone">
-                <i class="fa-solid fa-phone"></i>
-                <h3>Phone</h3>
-                <p>+91 9725834064</p>
+            <div class="devider"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-            <div class="femail">
-                <i class="fa-solid fa-envelope"></i>
-                <h3>Email</h3>
-                <p>creedally@gmail.com</p>
-            </div>
-        </div>
-        <div class="devider"></div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <div class="social">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-        </div>
-        <p>© 2021 All Rights Reserved. Design by Ankit Dalsaniya</p>
-    </footer>
-
-
+            <p class="copyright">© 2021 All Rights Reserved. Design by Ankit Dalsaniya</p>
+        </footer>
+    </div>
 
     <!-- include script  -->
 

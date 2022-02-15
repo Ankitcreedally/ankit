@@ -1,0 +1,239 @@
+@media screen and (max-width : 1000px) {
+    .navdesk{
+        display: none;
+    }
+    .callnav{
+        display: none;
+    }
+    .fistnav {
+        width: auto;
+    }
+    .hamburger {
+        display: block;
+    }
+    .sliderh{
+        order: 2;
+    }
+    .sliderimage{
+        order: 1;
+    }
+    .sliderh {
+        width: 100%;
+    }
+    .sliderimage {
+        width: 100%;
+    }
+    .bannerslider {
+        height: 80vh;
+    }
+    .sliksliderr.slick-initialized.slick-slider {
+        height: 80vh;
+    }
+    .sliderimage img {
+        width: 60%;
+        margin: auto;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 30px;
+    }
+
+    .about{
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 70%;
+    }
+    .abouttext {
+        width: 90%;
+        margin: 50px 0 0 0;
+    }
+    .bluebar {
+        display: none;
+    }
+    .about h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .about h4 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .sbluebar1, .sbluebar2 {
+        display: none;
+    }
+    .servicesmain {
+        width: 100%;
+    }
+
+    .qualified {
+        flex-wrap: wrap;
+        background: #fc4054;
+        height: auto;
+    }
+    .qualified img {
+        width: 80%;
+        margin: 40px 0 0 0;
+    }
+    .contain {
+        width: 90%;
+        margin: 50px auto;
+    }
+    .contain h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+
+    .testimonialslides {
+        width: 100%;
+    }
+    .contactus {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .contactus h2 {
+        font-size: 40px;
+    }
+    .newsletter {
+        width: 50%;
+    }
+    .info{
+        width: 100%;
+    }
+    .devider{
+        width: 70%;
+    }
+
+    footer p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    footer a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    h2{
+        font-size: 40px;
+        margin: 0;
+    }
+    h4{
+        font-size: 20px;
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+    .buttons {
+        margin: 0 0 20px 0;
+    }
+    .buttons button {
+        margin: 10px 0 0 0;
+        width: 44%;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .slick-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    button.aboutread, button.send{
+        margin: 10px 0 0 0;
+        width: 44%;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+
+    .preservice h2 {
+        font-size: 40px;
+    }
+    .preservice h4 {
+        font-size: 30px;
+    }
+    .servicesmain {
+        margin: 50px 0 0 0;
+        flex-wrap: wrap;
+    }
+    button.deskbtnabout {
+        display: none;
+    }
+    .sbtnmobile {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    .sbtnmobile button {
+        width: 44%;
+        font-size: 15px;
+        line-height: 40px;
+        color: #fcfcfd;
+        font-weight: 700;
+        font-family: "Sen";
+        border-radius: 0;
+        border: none;
+        background-color: #232222;
+        margin: auto;
+    }
+    .contain p {
+        font-size: 16px;
+    }
+    .testimonial{
+        padding: 17px 10px;
+        width: 80%;
+    }
+
+    .contactus {
+        width: 100%;
+        justify-content: center;
+    }
+    .getintuch {
+        width: 90%;
+    }
+    .newsletter {
+        width: 90%;
+        margin: 50px 0;
+    }
+
+
+    .info {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .flocation, .fphone, .femail {
+        width: 90%;
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer li {
+        padding: 20px;
+    }
+    footer p {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    footer a {
+        font-size: 17px;
+    }
+    .social a {
+        padding: 0 20px;
+    }
+    p.copyright {
+        text-align: center;
+        line-height: 30px;
+    }
+}
