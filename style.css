@@ -88,6 +88,10 @@ header a {
     display: none;
 }
 
+.mobilecenter{
+    display: none;
+}
+
 nav.mobilenav {
     position: absolute;
     z-index: 1;
@@ -120,6 +124,10 @@ nav.mobilenav {
 .show {
     display: block;
     transition: 2s;
+}
+
+i.fa-solid.fa-phone {
+    padding: 0 5px;
 }
 
 
@@ -175,6 +183,7 @@ h4 {
 
 p {
     margin: 20px 0 0 0;
+    text-align: left;
     font-size: 18px;
     line-height: 25px;
     color: #232222;
@@ -210,6 +219,10 @@ button.contactusbtn {
     background-color: #232222;
 }
 
+.contactusbtn a {
+    text-decoration: none;
+    color: white;
+}
 .sliderimage {
     width: 50%;
     display: flex;
@@ -229,6 +242,7 @@ button.contactusbtn {
 }
 
 .slick-arrow {
+    cursor: pointer;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -265,7 +279,6 @@ button.contactusbtn {
 /* about us saction  */
 
 .about {
-    padding: 150px 0;
     background-color: #ffffff;
     width: 100%;
     display: flex;
@@ -300,8 +313,9 @@ button.contactusbtn {
     line-height: 38px;
 }
 
-.about p{
-    font-size: 17px;
+.about p {
+    text-align: left;
+    font-size: 18px;
     line-height: 25px;
 }
 
@@ -334,7 +348,6 @@ button.aboutread {
 
 .preservice {
     width: 100%;
-    margin: 100px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,13 +356,13 @@ button.aboutread {
 
 .preservice h2 {
     width: auto;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 52px;
 }
 
 .preservice h4 {
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 52px;
 }
 
@@ -390,7 +403,7 @@ button.aboutread {
 
 h3 {
     margin: 10px 0 0 0;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 32px;
     font-weight: 700;
     font-family: "Sen";
@@ -399,7 +412,7 @@ h3 {
 .services p {
     margin: 10px 0 0 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     width: 80%;
 }
@@ -427,7 +440,6 @@ h3 {
 /* qulified traffic section  */
 
 .qualified {
-    margin: 100px auto;
     padding: 50px 0;
     display: flex;
     justify-content: center;
@@ -435,7 +447,8 @@ h3 {
     width: 100%;
     height: 300px;
     background: linear-gradient(105deg, #ffffff 30%, #fc4054 200px);
-    /* max-width: 1440px; */
+    max-width: 1440px;
+    margin: auto;
 }
 
 .qualified img {
@@ -458,6 +471,7 @@ h3 {
 }
 
 .contain p {
+    text-align: left;
     font-size: 18px;
     line-height: 25px;
     color: #f8f8f8;
@@ -469,7 +483,7 @@ h3 {
 /* testimonial section  */
 p.testimonialpera {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: #2f2f2e;
     font-weight: 400;
@@ -491,7 +505,7 @@ p.testimonialpera {
 .testimonial h4 {
     margin: 0 0 15px 0;
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 30px;
 }
 
@@ -504,8 +518,16 @@ p.testimonialpera {
 }
 
 .space {
+    height: 150px;
+}
+
+.space2 {
     height: 100px;
 }
+.space3 {
+    height: 100px;
+}
+
 
 .testimonialslides {
     display: flex;
@@ -634,12 +656,17 @@ footer h3 {
     font-size: 30px;
     color: #f8f8f8;
     line-height: 0.5;
+    padding: 10px 0;
 }
 
 footer p {
     font-size: 12px;
     line-height: 0;
     color: #f8f8f8;
+}
+
+footer a > p {
+    text-align: left;
 }
 
 .devider {
@@ -675,4 +702,24 @@ footer a {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
     color: #f8f8f8;
+}
+
+footer .fa-solid.fa-phone {
+    padding: 0;
+}
+
+i#floating_search {
+    color: white;
+    font-size: 20px;
+    line-height: 15px;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #fc4054;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 10000;
+    box-shadow: 0px 2px 20px #00000073;
+    cursor: pointer;
 }
